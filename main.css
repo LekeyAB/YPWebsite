@@ -1,0 +1,70 @@
+#nav-menu{
+    display: block;
+    background-color: #f7f7f7;
+    text-align: center;
+    height: 5vh;
+    width: auto;
+    margin: auto 1vw auto 1vw;
+    text-decoration: none;
+}
+    .nav-item{
+        display: inline-block;
+        width: 5vw;
+        height: 2vh;
+        padding: 1vh 2vw 1vh 2vw;
+        margin: auto 1vw auto 1vw;
+        text-decoration: none;
+    }
+        #services{
+
+        }
+            #anchorservices{
+                text-decoration: none;
+                background-color: red;
+                height: 1vh;
+            }
+        #programs{
+            
+        }
+            #anchorprograms{
+                background-color: orange;
+                text-decoration: none;
+            }
+        #events{
+                
+            }
+            #anchorevents{
+                text-decoration: none;
+                background-color: yellow;
+            }
+        #home{
+            
+        }
+            #nav-logo{
+                
+            }
+            #anchorhome{
+                text-decoration: none;
+                background-color: lightgreen;
+            }
+        #resources{
+            
+        }
+            #anchorresources{
+                text-decoration: none;
+                background-color: skyblue;
+            }
+        #aboutus{
+            
+        }
+            #anchoraboutus{
+                background-color: purple;
+                text-decoration: none;
+            }
+        #getinvolved{
+            
+        }
+            #anchorgetinvolved{
+                background-color: hotpink; 
+                text-decoration: none;
+            }
