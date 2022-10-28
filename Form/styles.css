@@ -1,13 +1,55 @@
+body{
+    text-align: center;
+}
+nav{
+    background-color: lightslategray;
+}
 #nav-list{
     list-style: none;
 }
 .nav-el{
     list-style: none;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 1% 1%;
+    border-color: azure;
 
 }
 .nav-home{
     list-style: none;
+    display: inline-block
+}
+#nav-logo{
+    width: auto;
+    height: 10vh;
 }
 .nav-a{
     list-style: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: lightslategray;
+}
+#services{
+    background-color: red;
+    border-color: azure;
+    border: 15%;
+}
+#programs{
+    background-color: orange;
+}
+#events{
+    background-color: yellow;
+}
+#home{
+    background-color: lightgreen;
+}
+#resources{
+    background-color: lightblue;
+}
+#aboutus{
+    background-color: plum;
+}
+#getinvolved{
+    background-color: pink;
 }
