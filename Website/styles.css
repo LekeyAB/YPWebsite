@@ -1,11 +1,12 @@
 body{
     text-align: center;
-    background-color: lightgreen;
+    background-color: #f7f7f7;
     margin: 0;
 
 }
 nav{
     background-color: #f7f7f7;
+    shape-outside: margin-box;
 }
 #nav-list{
     list-style: none;
@@ -55,14 +56,20 @@ nav{
 #getinvolved{
     background-color: pink;
 }
-.main-sections{
-    height: 25vh;
-    display: inline-block;
-}
+
 .qa{
     height: 10vh;
     margin: 2%;
 
+}
+.home-main{
+    display: inline-block;
+}
+.home-main-el{
+    text-align: center;
+    height: 30vh;
+    width: 50vw;
+    padding-top: 10%;
 }
 footer{
     background-color: #f7f7f7;

@@ -10,6 +10,7 @@
 
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 
     <!-- Font Awesome -->
@@ -33,11 +34,8 @@
                 <li class="nav-el btn-lg" id="events">
                     <a class="nav-a" href="events.html">Events</a>
                 </li>
-                <li class="nav-el nav-home btn-lg" id="home">
-                    <div>
-                    <img id="nav-logo" src="img/yplogo.png" alt="yp logo">
-                    <a class="nav-a" href="index.html">Home</a>
-                    </div>   
+                <li class="nav-el nav-home btn-lg btn-outline-secondary" id="home">
+                    <a class="nav-a home-a" href="index.html"><img id="nav-logo" src="img/yplogo.png" alt="yp logo"></a>    
                 </li>
                 <li class="nav-el btn-lg" id="resources">
                     <a class="nav-a" href="resources.html">Resources</a>
@@ -52,30 +50,95 @@
         </nav>
 
         <main>
-            <div class="feature-box col-lg-4">
-                <i class="icon fas fa-check-circle fa-4x"></i>
-                <h3 class="feature-title">Easy to use.</h3>
-                <p>So easy to use, even your dog could do it.</p>
-              </div>
-      
-              <div class="feature-box col-lg-4">
-                <i class="icon fas fa-bullseye fa-4x"></i>
-                <h3 class="feature-title">Elite Clientele</h3>
-                <p>We have all the dogs, the greatest dogs.</p>
-              </div>
-      
-              <div class="feature-box col-lg-4">
-                <i class="icon fas fa-heart fa-4x"></i>
-                <h3 class="feature-title">Guaranteed to work.</h3>
-                <p>Find the love of your dog's life or your money back.</p>
-              </div>
+            <div class="main-sections container-fluid">
+                <div class="qa row">
+                    <form class="col" id="getinvolved">
+                        <label for=”fname”>First Name: </label>
+                        <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                    </form>
+                    <form class="col" id="services">
+                        <label for=”fname”>First Name: </label>
+                        <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                    </form>
+                    <form class="col" id="resources">
+                        <label for=”fname”>First Name: </label>
+                        <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                    </form>
+                </div>     
+            </div>
+
+            <div class="main-sections container-fluid">
+                <div class="qa row">
+                    <form class="col" id="events">
+                        <label for=”fname”>First Name: </label>
+                        <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                    </form>
+                    <form class="col" id="aboutus">
+                        <label for=”fname”>First Name: </label>
+                        <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                    </form>
+                    <form class="col" id="services">
+                        <label for=”fname”>First Name: </label>
+                        <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                    </form>
+                    <form class="col" id="programs">
+                        <label for=”fname”>First Name: </label>
+                        <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                    </form>
+                </div>     
+            </div>
+
+            <div class="main-sections container-fluid">
+                    <div class="qa row">
+                        <form class="col" id="resources">
+                            <label for=”fname”>First Name: </label>
+                            <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                        </form>
+                        <form class="col" id="getinvolved">
+                            <label for=”fname”>First Name: </label>
+                            <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                        </form>
+                    </div>
+            </div>
+            <div class="main-sections container-fluid">
+                <div class="qa row">
+                    <div class="col">
+                        <form id="services">
+                            <label for=”fname”>First Name: </label>
+                            <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                        </form>
+                    </div>
+                    <div class="col">
+                        <form id="events">
+                            <label for=”fname”>First Name: </label>
+                            <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                        </form>
+                        
+                    </div>
+                    <div class="col">
+
+                        <form  id="getinvolved">
+                            <label for=”fname”>First Name: </label>
+                            <input type=”text” id=”fname” name=”fname” placeholder="Who are you?">
+                        </form>
+
+                    </div>
+                    
+                    
+                </div>     
+            </div>
+                
+        
         </main>
-    
-              <i class="social-icon fab fa-facebook-f"></i>
+        <footer>
+            <i class="social-icon fab fa-facebook-f"></i>
               <i class="social-icon fab fa-twitter"></i>
               <i class="social-icon fab fa-instagram"></i>
               <i class="social-icon fas fa-envelope"></i>
               <p>© Copyright #### Company</p>
+        </footer>
+    
+              
             
 
     </body>
