@@ -104,6 +104,9 @@ p {
 
 
 /* Title Section */
+.title{
+  
+}
 
 
 /* Title Image */
@@ -113,6 +116,7 @@ p {
 #features {
   position: relative;
   height: 100vh;
+  background-color: lightgreen;
 }
 
 .feature-title {
@@ -135,7 +139,8 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #ef8172;
+  background-color: #8f8f8f;
+  height: 88vh;
 }
 
 .testimonial-text {
@@ -149,21 +154,12 @@ p {
   margin: 20px;
 }
 
-
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
 /* Pricing Section */
 
 #pricing {
+  background-color: lightgreen;
   padding: 100px;
+  height: 88vh;
 }
 
 .price-text {
@@ -176,10 +172,25 @@ p {
 }
 
 /* CTA Section */
-
+#cta{
+  height: 88vh;
+  background-color: #8f8f8f;
+}
 
 /* Footer Section */
-
+#footer{
+  height: 88vh;
+  background-color: lightgreen;
+}
+.second-nav{
+  height: 80vh;
+}
+.nav-description{
+  width: 10vw;
+  height: 10vh;
+  display: inline-block;
+  background-color: #fff;
+}
 
 .social-icon {
   margin: 20px 10px;
@@ -196,3 +207,4 @@ p {
     transform: rotate(0);
   }
 }
+
