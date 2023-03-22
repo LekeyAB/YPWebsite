@@ -46,7 +46,7 @@ p {
 /* Navigation Bar */
 
 .navbar {
-  background-color: #8f8f8f;
+  background-color: #ffffff;
  
 }
 
@@ -169,6 +169,10 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.card-body{
+  height: 20vh;
 }
 
 /* CTA Section */

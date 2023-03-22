@@ -1,70 +1,135 @@
 body{
     text-align: center;
-    background-color: lightgreen;
+    background-color: lightpink;
     margin: 0;
+    width: 70vw;
+}
 
+/* Title */
+.title{
+    background-color: lightslategray;
+    height: 100vh;
+    width: 30vw;
+    transform: translateX(235%);
+    text-align: left;
 }
-nav{
-    background-color: #f7f7f7;
+.title-headings{
+    height: 40vh;
 }
-#nav-list{
-    list-style: none;
+.title-header{
+    font-size: 4em;
+    text-align: left;
+    color: aliceblue;
+    padding:1%;
 }
-.nav-el{
-    list-style: none;
-    display: inline-block;
-    width: auto;
-    height: auto;
-    margin: 1% 1%;
-    border-color: azure;
-
+.info{
+    height: 45vh;
+    padding: 0 3% 0 3%;
 }
-.nav-home{
-    list-style: none;
-    display: inline-block;
-}
-#nav-logo{
-    width: auto;
-    height: 7vh;
-}
-.nav-a{
-    list-style: none;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: grey;
-}
-#services{
-    background-color: red;
-    border-color: azure;
-}
-#programs{
-    background-color: orange;
-}
-#events{
-    background-color: #FFE900;
-}
-#home{
-    background-color: lightgreen;
-}
-#resources{
-    background-color: lightblue;
-}
-#aboutus{
-    background-color: plum;
-}
-#getinvolved{
-    background-color: pink;
-}
-.main-sections{
-    height: 25vh;
-    display: inline-block;
-}
-.qa{
+.buttons{
     height: 10vh;
-    margin: 2%;
-
+    padding: 0 3% 0 3%;
 }
+.title-btn{
+    margin: 0 1% 0 1%;
+}
+.info-list{
+    padding-top: 5%;
+}
+.story-link{
+    padding: 0 0 0 0;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 20px 0 0 0;
+}
+.title-br{
+    height: 1vh;
+    width: 20vw;
+}
+/* Name Cards */
+#testimonial-carousel{
+    height: 80vh;
+}
+
+/* Main Content */
+.main_heading{
+    padding: 5vh 0 5vh 0;
+    height: 20vh;
+}
+
+/* Heading */
+
+/* Landing Info */
+.content-container{
+    height: 65vh;
+    text-align: left;
+    padding-left: 5vw;
+}
+
+.content{
+    padding: 1%;
+    
+}
+.content-text{
+    font-size: 0.9em;
+    width: 50vw;
+}
+
+/* Year Landing */
+.year-landing{
+    height: 65vh;
+    width: 70vw;
+}
+.major_events{
+    text-align: left;
+    padding: 3% 0 0 10vw;
+}
+.event_text{
+    font-size: 0.8em;
+}
+.year-card{
+    width: 20vw;
+    height: 55vh;
+}
+.held_stories{
+    text-align: left;
+    padding: 3% 3vw 0 0;
+}
+
+
+/* Story Card */
+.card-container{
+    height: 65vh;
+}
+.story-photo{
+    width: 20vw;
+    padding-top: 15vh;
+}
+.story-card{
+    width: 60vw;
+    height: 60vh;
+    transform: translateX(6%) translateY(0%);
+    padding: 1%;
+    
+}
+.story-body{
+    padding: 17vh 5vw 0 2vh;
+}
+
+/* Pagination */
+.main-pagination{
+    height: 10vh;
+}
+.year-pagination{
+    height: 10vh;
+    transform: translateX(0%) translateY(29.9%);
+}
+
+/* Footer */
 footer{
-    background-color: #f7f7f7;
-    margin: 0;
+    background-color: darkgray;
+    height: 5vh;
+}
+.social-container{
+    padding: 0 0 0 70vw;
 }
