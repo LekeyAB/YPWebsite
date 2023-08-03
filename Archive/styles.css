@@ -21,7 +21,7 @@ svg{
 /* Nav */
 .top-nav{
     background-color: pink;
-    padding-left: 75vw;
+    padding-left: 70vw;
     height: 4vh;
 }
 .bottom-nav{
@@ -35,7 +35,7 @@ svg{
 }
 .nav-item{
     border-radius: 10%;
-    padding: 0 3%;
+    padding: 0 1%;
     text-align: center;
 }
 .nav-item.active{
@@ -47,7 +47,6 @@ svg{
 }
 .nav-link:hover{
     color: white;
-    background-color: pink;
     border-radius: 10%;
 }
 .nav-link.active{
@@ -56,17 +55,34 @@ svg{
     border-radius: 10%;
     
 }
+.second:active{
+    color: pink;
+}
+.nav-link .second{
+    background-color: pink;
+}
 .bottom-nav .nav-link:hover{
     
 }
 .bottom-nav .nav-link.active{
     
 }
-.bottom-nav .mainpage{
+.bottom-nav .arts{
     background-color: pink;
-    width: 18vw;
+    width: 16vw;
     border-radius: 0 0 30% 30%;
 }
+.bottom-nav .conversations{
+    background-color: pink;
+    width: 19vw;
+    border-radius: 0 0 30% 30%;
+}
+.bottom-nav .history{
+    background-color: pink;
+    width: 25vw;
+    border-radius: 0 0 30% 30%;
+}
+
 
 /* Home page */
 .home-page{
