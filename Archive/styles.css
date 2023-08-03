@@ -1,0 +1,139 @@
+body{
+ background-color: #f7f7f7;
+ line-height: 200%;
+ font-family: sans-serif,Oswald;
+}
+h1{
+    font-weight: 700;
+    font-size: 5em;
+}
+#Main-Content{
+    padding: 0 5%;
+}
+svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+    transform: translateX(0%) translateY(0%);
+}
+/* Nav */
+.navbar-nav{
+    padding-left: 40vw;
+    height: 5vh;
+}
+.nav-item{
+    border-radius: 10%;
+    padding: 0 3%;
+    text-align: center;
+}
+.nav-item.active{
+    border-radius: 10%;
+}
+.nav-link{
+    color: black;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: white;
+    background-color: pink;
+    border-radius: 10%;
+}
+.nav-link.active{
+    color: blue;
+    background-color: pink;
+    border-radius: 10%;
+}
+/* Home page */
+.home-page{
+    padding-top: 15vh;
+}
+.title-text{
+    width: 60vw;
+}
+.black{
+    font-weight: 900;
+}
+.queer{
+    font-weight: 900;
+    color: pink;
+}
+.btn{
+    background-color: pink;
+    border-color: black;
+    color: black;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: pink;
+    border-color: white;
+    color: white;
+    font-weight: 500;
+}
+/* Personal Story */
+.Personal-Story{
+    height: 70vh;
+}
+.personal-name{
+    font-size: 50px;
+    color: pink;
+    font-weight: 900;
+}
+.time-period{
+    padding: 0.5% 0;
+    font-size: 1.8em;
+}
+.story-left{
+    padding-right: 5%;
+    font-size: 15px;
+}
+.story-right{
+    padding-right: 5%;
+    font-size: 14px;
+}
+.quotes{
+    font-weight: 700;
+}
+/* Celeb Story */
+.celeb-stories{
+    height: 23vh;
+    padding-top: 3.5vh;
+}
+.celeb-img{
+    width: 15vh;
+    border-radius: 50%;
+}
+.celeb-story{
+    font-size: 12px;
+    line-height: 170%;
+    font-weight: 500;
+    padding-top: 6%;
+}
+.celeb-name{
+    font-size: .9em;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+    padding-top: 3%;
+}
+.celeb-title{
+    font-size: .7em;
+    text-align: center;
+}
+
+/* About */
+.about-page{
+    padding-top: 1%;
+}
+.about-content{
+    padding: 1% 0;
+}
+.content-header{
+    font-weight: 700;
+    color: pink;
+    font-size: 3em;
+}
+.about-text{
+    width: 60vw;
+}
