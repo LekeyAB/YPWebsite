@@ -19,9 +19,19 @@ svg{
     transform: translateX(0%) translateY(0%);
 }
 /* Nav */
-.navbar-nav{
+.top-nav{
+    background-color: pink;
+    padding-left: 75vw;
+    height: 4vh;
+}
+.bottom-nav{
+    padding-top: 1vh;
     padding-left: 40vw;
-    height: 5vh;
+    height: 3vh;
+    
+}
+.navbar-nav{
+    
 }
 .nav-item{
     border-radius: 10%;
@@ -44,7 +54,20 @@ svg{
     color: blue;
     background-color: pink;
     border-radius: 10%;
+    
 }
+.bottom-nav .nav-link:hover{
+    
+}
+.bottom-nav .nav-link.active{
+    
+}
+.bottom-nav .mainpage{
+    background-color: pink;
+    width: 18vw;
+    border-radius: 0 0 30% 30%;
+}
+
 /* Home page */
 .home-page{
     padding-top: 15vh;
