@@ -58,6 +58,9 @@ svg{
 .second:active{
     color: pink;
 }
+.second:hover{
+    color: pink;
+}
 .nav-link .second{
     background-color: pink;
 }
